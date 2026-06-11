@@ -1,0 +1,18 @@
+QAP Submission Questions - Problem 3
+
+1. How many hours did it take you to complete this problem?
+   Replace with your actual time: ______ hours
+
+2. What online resources did you use?
+   Replace with your actual resources: lecture notes, Java documentation, class examples, etc.
+
+3. Did you ask any friends for help?
+   Replace with your honest answer: No / Yes, name: __________
+
+4. Did you ask instructors any questions or attend help sessions?
+   Replace with your honest answer: No / Yes, number of questions/sessions: ______
+
+5. Difficulty and confidence:
+   Difficulty rating: ___ / 5
+   Confidence solving a similar problem in the future: Yes / Somewhat / No
+   Notes: ____________________________________________

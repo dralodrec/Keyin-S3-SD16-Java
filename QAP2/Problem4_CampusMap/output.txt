@@ -1,0 +1,36 @@
+Creating campus map...
+Attempting invalid walkway:
+Error: both buildings must be added before creating a walkway.
+
+Campus summary: CampusMap[buildings=7,walkways=7,fountains=1]
+Buildings added: 7
+Walkways added: 7
+Fountains added: 1
+
+Building centers:
+Science Hall center: (500,550)
+Library center: (225,200)
+Lecture Room 1 center: (740,760)
+Lecture Room 2 center: (840,760)
+Lecture Room 3 center: (740,650)
+Lecture Room 4 center: (840,650)
+Lecture Room 5 center: (790,540)
+Central Fountain: MyCircle[center=(500,400),radius=35.0]
+
+Total walkway length: 2727.63 meters
+Total fountain area: 3848.45 square meters
+
+Walkway checks:
+Science Hall to Library? true
+Library to Science Hall? true
+Library to Lecture Room 3? false
+Library to unlisted building? false
+
+Walkway details:
+Walkway 1: MyLine[begin=(500,550),end=(225,200)], length 445.11 meters
+Walkway 2: MyLine[begin=(500,550),end=(740,760)], length 318.90 meters
+Walkway 3: MyLine[begin=(500,550),end=(840,760)], length 399.62 meters
+Walkway 4: MyLine[begin=(500,550),end=(740,650)], length 260.00 meters
+Walkway 5: MyLine[begin=(500,550),end=(840,650)], length 354.40 meters
+Walkway 6: MyLine[begin=(500,550),end=(790,540)], length 290.17 meters
+Walkway 7: MyLine[begin=(225,200),end=(790,540)], length 659.41 meters

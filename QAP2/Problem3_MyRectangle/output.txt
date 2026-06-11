@@ -1,0 +1,24 @@
+Testing MyRectangle:
+rectangle1 = MyRectangle[topLeft=(2,10),bottomRight=(12,2),width=10,height=8]
+Top-left = (2,10)
+Bottom-right = (12,2)
+Width = 10
+Height = 8
+Area = 80
+Perimeter = 36
+Diagonal length = 12.81
+Center = (7,6)
+Contains (5,5)? true
+Contains (20,20)? false
+
+rectangle2 = MyRectangle[topLeft=(0,20),bottomRight=(15,0),width=15,height=20]
+rectangle2 after setters = MyRectangle[topLeft=(1,18),bottomRight=(11,3),width=10,height=15]
+Top-left X = 1
+Top-left Y = 18
+Bottom-right X = 11
+Bottom-right Y = 3
+Area = 150
+Perimeter = 50
+Center = (6,10)
+
+rectangle2 equals rectangle3? true

@@ -1,0 +1,29 @@
++----------------------------------------------------+
+|                    MyRectangle                     |
++----------------------------------------------------+
+| - topLeft: MyPoint                                 |
+| - bottomRight: MyPoint                             |
++----------------------------------------------------+
+| + MyRectangle(topLeftX:int, topLeftY:int,          |
+|               bottomRightX:int, bottomRightY:int)  |
+| + MyRectangle(topLeft:MyPoint, bottomRight:MyPoint)|
+| + getTopLeft(): MyPoint                            |
+| + setTopLeft(topLeft:MyPoint): void                |
+| + getBottomRight(): MyPoint                        |
+| + setBottomRight(bottomRight:MyPoint): void        |
+| + getTopLeftX(): int                               |
+| + getTopLeftY(): int                               |
+| + getBottomRightX(): int                           |
+| + getBottomRightY(): int                           |
+| + getWidth(): int                                  |
+| + getHeight(): int                                 |
+| + getArea(): int                                   |
+| + getPerimeter(): int                              |
+| + getDiagonalLength(): double                      |
+| + getCenter(): MyPoint                             |
+| + contains(point:MyPoint): boolean                 |
+| + toString(): String                               |
++----------------------------------------------------+
+
+Composition:
+MyRectangle has two MyPoint objects: topLeft and bottomRight.

@@ -1,0 +1,35 @@
+Testing MyPoint:
+p1 = (1,2)
+p2 = (4,6)
+Distance p1 to p2 = 5.00
+Distance p1 to origin = 2.24
+p1 after setXY(2, 3) = (2,3)
+
+Testing MyLine:
+line1 = MyLine[begin=(0,0),end=(3,4)]
+Begin point = (0,0)
+End point = (3,4)
+Begin X = 0
+Begin Y = 0
+End X = 3
+End Y = 4
+Begin XY = [0, 0]
+End XY = [3, 4]
+Length = 5.00
+Gradient = 0.9273 radians
+
+After setting individual coordinates:
+line1 = MyLine[begin=(2,2),end=(8,10)]
+Length = 10.00
+Gradient = 0.9273 radians
+
+After setBeginXY(5, 5) and setEndXY(9, 12):
+line1 = MyLine[begin=(5,5),end=(9,12)]
+Begin XY = [5, 5]
+End XY = [9, 12]
+Length = 8.06
+Gradient = 1.0517 radians
+
+line2 from MyPoint objects = MyLine[begin=(10,20),end=(30,40)]
+line2 after setBegin and setEnd = MyLine[begin=(1,1),end=(6,6)]
+line2 length = 7.07

@@ -1,0 +1,17 @@
+Diane Christie, 237J Harvey Hall, Menomonie, WI
+54751
+Balance: $0.00
+Credit Limit: $1000.00
+
+Attempt to charge $200.00
+Charge: $200.00
+Balance: $200.00
+Attempt to charge $10.02
+Charge: $10.02
+Balance: $210.02
+Attempt to pay $25.00
+Payment: $25.00
+Balance: $185.02
+Attempt to charge $990.00
+Exceeds credit limit
+Balance: $185.02
