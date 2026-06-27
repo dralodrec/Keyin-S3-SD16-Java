@@ -1,0 +1,6 @@
+out/
+docs/javadoc/
+*.class
+.DS_Store
+.idea/
+.vscode/
