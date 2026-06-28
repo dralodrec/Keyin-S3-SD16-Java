@@ -1,3 +1,4 @@
+package pharmacy;
 
 /**
  * Base class for people in the pharmacy system.
