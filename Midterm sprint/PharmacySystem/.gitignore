@@ -4,3 +4,4 @@ docs/javadoc/
 .DS_Store
 .idea/
 .vscode/
+lib/
