@@ -1,5 +1,7 @@
 # Development Documentation - Pharmacy Management System
 
+## Developer: Feras Zen Alabdeen and Darrell Declaro 2026
+
 ## 1. Project Purpose
 
 This project implements a pharmacy management system in Java. It uses object-oriented programming to model people, patients, doctors, medications, prescriptions, and a system manager class.
