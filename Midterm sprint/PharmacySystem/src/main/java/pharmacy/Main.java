@@ -13,7 +13,7 @@ public class Main {
     private static final MedicationTrackingSystem system = new MedicationTrackingSystem();
 
     public static void main(String[] args) {
-        // loadSampleData();
+        loadSampleData();
         boolean running = true;
 
         System.out.println("Welcome to the Pharmacy Management System");
@@ -79,9 +79,6 @@ public class Main {
                 case 19:
                     restockAllMedications();
                     break;
-                case 20:
-                    listAllData();
-                    break;
                 case 0:
                     running = false;
                     System.out.println("Goodbye!");
@@ -113,9 +110,40 @@ public class Main {
         System.out.println("17. Print Prescriptions by Doctor");
         System.out.println("18. Print Patient Prescription Drug Names for Past Year");
         System.out.println("19. Restock All Medications");
-        System.out.println("20. List All Current Data");
         System.out.println("0. Exit");
         System.out.println("===========================================");
+    }
+
+    private static void loadSampleData() {
+        system.addPatient(new Patient(1, "Maria Santos", 34, "709-555-1001"));
+        system.addPatient(new Patient(2, "John Smith", 45, "709-555-1002"));
+        system.addPatient(new Patient(3, "Aisha Khan", 29, "709-555-1003"));
+        system.addPatient(new Patient(4, "Peter Brown", 62, "709-555-1004"));
+        system.addPatient(new Patient(5, "Emily White", 19, "709-555-1005"));
+
+        system.addDoctor(new Doctor(1, "Dr. Helen Clarke", 50, "709-555-2001", "Family Medicine"));
+        system.addDoctor(new Doctor(2, "Dr. Omar Ali", 43, "709-555-2002", "Cardiology"));
+        system.addDoctor(new Doctor(3, "Dr. Susan Lee", 39, "709-555-2003", "Pediatrics"));
+
+        system.addMedication(new Medication(1, "Amoxicillin", "500mg", 40, LocalDate.now().plusMonths(8)));
+        system.addMedication(new Medication(2, "Metformin", "850mg", 55, LocalDate.now().plusMonths(10)));
+        system.addMedication(new Medication(3, "Atorvastatin", "20mg", 30, LocalDate.now().minusMonths(2)));
+        system.addMedication(new Medication(4, "Ventolin", "100mcg", 25, LocalDate.now().plusMonths(6)));
+        system.addMedication(new Medication(5, "Ibuprofen", "200mg", 80, LocalDate.now().minusDays(10)));
+        system.addMedication(new Medication(6, "Cetirizine", "10mg", 70, MedicationTrackingSystem.randomExpiryDateIncludingPast()));
+        system.addMedication(new Medication(7, "Omeprazole", "20mg", 50, MedicationTrackingSystem.randomExpiryDateIncludingPast()));
+
+        system.addPatientToDoctor(1, 1);
+        system.addPatientToDoctor(2, 2);
+        system.addPatientToDoctor(3, 3);
+        system.addPatientToDoctor(4, 1);
+        system.addPatientToDoctor(5, 3);
+
+        system.acceptPrescription(1, 1, 1, 1, LocalDate.now().minusMonths(2));
+        system.acceptPrescription(2, 2, 2, 2, LocalDate.now().minusMonths(4));
+        system.acceptPrescription(3, 2, 4, 3, LocalDate.now().minusMonths(14));
+        system.acceptPrescription(4, 3, 5, 4, LocalDate.now().minusMonths(1));
+        system.acceptPrescription(5, 1, 3, 5, LocalDate.now().minusMonths(6));
     }
 
     private static void addPatient() {
