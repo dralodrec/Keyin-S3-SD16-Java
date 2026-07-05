@@ -1,5 +1,7 @@
 ## Getting Started
-
+### Mid Term Sprint – Pharmacy Management System ###
+## Students: Feras Zen & Darrell Declaro
+## Course: Java – Semester 3 (Summer 2026)
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
 ## Folder Structure
