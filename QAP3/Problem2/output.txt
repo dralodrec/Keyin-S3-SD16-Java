@@ -1,0 +1,5 @@
+Point 1: (2.5,3.5)
+Point 2: (1.0,2.0)
+Before move: (1.0,2.0),speed=(0.5,1.0)
+After one move: (1.5,3.0),speed=(0.5,1.0)
+After two moves: (2.0,4.0),speed=(0.5,1.0)

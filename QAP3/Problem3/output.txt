@@ -1,0 +1,4 @@
+Ellipse - Area: 75.40, Perimeter: 31.73
+Circle - Area: 28.27, Perimeter: 18.85
+Triangle - Area: 6.00, Perimeter: 12.00
+Equilateral Triangle - Area: 10.83, Perimeter: 15.00

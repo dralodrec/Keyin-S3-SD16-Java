@@ -1,0 +1,4 @@
+Coach Bob, age: 27, gender: M
+Lynne Brooke, age: 16, gender: F, student ID: HS95129, GPA: 3.5
+Duke Java, age: 34, gender: M, subject: Computer Science, salary: $50000.00
+Ima Frosh, age: 18, gender: F, student ID: UCB123, GPA: 4.0, year: 1, major: English
