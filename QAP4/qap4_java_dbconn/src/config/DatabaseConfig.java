@@ -17,6 +17,6 @@ public final class DatabaseConfig {
     }
 
     public static String getPassword() {
-        return System.getenv().getOrDefault("QAP4_DB_PASSWORD", "postgres");
+        return System.getenv().getOrDefault("QAP4_DB_PASSWORD", "password1234");
     }
 }
