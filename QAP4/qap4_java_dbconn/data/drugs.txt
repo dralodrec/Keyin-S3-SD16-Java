@@ -1,0 +1,3 @@
+101	Amoxicillin	12.50	500 mg twice daily
+102	Ibuprofen	8.99	200 mg as needed
+103	Co-Amox	0.59	500mg
